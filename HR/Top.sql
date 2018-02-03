@@ -1,0 +1,3 @@
+/*
+The SELECT TOP clause is used to specify the number of records to return.
+*/
