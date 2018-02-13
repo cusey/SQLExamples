@@ -8,4 +8,17 @@ Note: It is very important to understand that a NULL value is different from a z
 A field with a NULL value is one that has been left blank during record creation!
 */
 
-SELECT * FROM EMPLOYEES WHERE COMMISSION_PCT IS NULL;
+SELECT LAST_NAME,COMMISSION_PCT FROM EMPLOYEES WHERE COMMISSION_PCT IS NULL;
+
+/*
+LAST_NAME                 COMMISSION_PCT
+------------------------- --------------
+Hartstein                               
+Fay                                     
+Mavris                                  
+Baer                                    
+Higgins                                 
+Gietz                                   
+
+72 rows selected. 
+*/
