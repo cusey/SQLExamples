@@ -1,5 +1,7 @@
 /*
-
+The right join generates a list all the computer. This list could be used to inventory
+the computers. If there are no employee identification number or employee last name
+that computer has not been issued to employee.
 */
 SELECT E.EMPLOYEE_ID, E.LAST_NAME, C.SERIAL_NUMBER
 FROM EMPLOYEES E RIGHT JOIN  COMPUTERS C 
